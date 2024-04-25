@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5e3c2828-3f8b-4e29-9d4f-b200028bdda7" name="Changes" comment="implementing MyMinkedList">
-      <change afterPath="$PROJECT_DIR$/src/Classes/MyStack.java" afterDir="false" />
+    <list default="true" id="5e3c2828-3f8b-4e29-9d4f-b200028bdda7" name="Changes" comment="My stack">
       <change beforePath="$PROJECT_DIR$/src/Classes/MyArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Classes/MyArrayList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -70,7 +69,7 @@
       <workItem from="1714016872095" duration="1971000" />
       <workItem from="1714070059882" duration="2246000" />
       <workItem from="1714072349124" duration="18000" />
-      <workItem from="1714072967105" duration="635000" />
+      <workItem from="1714072967105" duration="989000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <option name="closed" value="true" />
@@ -96,7 +95,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714073483697</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="My stack">
+      <option name="closed" value="true" />
+      <created>1714073675330</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1714073675330</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,6 +113,7 @@
     <MESSAGE value="." />
     <MESSAGE value="implementing MyArrayList" />
     <MESSAGE value="implementing MyMinkedList" />
-    <option name="LAST_COMMIT_MESSAGE" value="implementing MyMinkedList" />
+    <MESSAGE value="My stack" />
+    <option name="LAST_COMMIT_MESSAGE" value="My stack" />
   </component>
 </project>

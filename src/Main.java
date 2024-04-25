@@ -1,17 +1,18 @@
 import Classes.MyArrayList;
 import Classes.MyLinkedList;
+import Classes.MyQueue;
 import Classes.MyStack;
 
 public class Main {
     public static void main(String[] args) {
-        checkMyLinkedList();
         checkMyStack();
+        checkMyQueue();
     }
 
     private static void checkMyArrayList() {
         MyArrayList myArrayList =  new MyArrayList();
-        myArrayList.add(15);
-        myArrayList.add(12);
+        myArrayList.add(11.5);
+        myArrayList.add(10);
         myArrayList.add(9);
         myArrayList.add(8.7);
         myArrayList.add(7);
@@ -43,7 +44,6 @@ public class Main {
         myArrayList.clear();
     }
     private static void checkMyLinkedList() {
-        MyLinkedList myLinkedList = new MyLinkedList();
         MyLinkedList<Object> myLinkedList = new MyLinkedList<>();
         myLinkedList.add(11);
         myLinkedList.add(10.5);
@@ -84,7 +84,18 @@ public class Main {
         System.out.println(myStack.empty());
         System.out.println(myStack.size());
         System.out.println(myStack.peek());
-        System.out.println(myStack.push(21));
+        System.out.println(myStack.push(19.230));
         System.out.println(myStack.pop());
+    }
+    private static void checkMyQueue() {
+        MyQueue<Object> myQueue = new MyQueue<>();
+        System.out.println(myQueue.empty());
+        myQueue.enqueue(12.5);
+        myQueue.enqueue(11);
+        System.out.println(myQueue.empty());
+        System.out.println(myQueue.size());
+        System.out.println(myQueue.peek());
+        System.out.println(myQueue.enqueue(19.230));
+        System.out.println(myQueue.dequeue());
     }
 }
