@@ -1,6 +1,6 @@
 package Classes;
 
-public abstract class MyArrayList<T> implements MyList {
+public class MyArrayList<T> implements MyList {
     private Object[] list = new Object[5];
     private int size = 0;
 
